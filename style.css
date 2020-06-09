@@ -1,0 +1,95 @@
+*
+{
+    font-family: sans-serif;
+}
+
+button
+{
+    border: none;
+    background-color: transparent;
+}
+body
+{
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    position: fixed;
+    width: 100%;  
+    align-items: center;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+}
+
+header .sub-header
+{
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .account
+{
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+    border-radius: 40px;
+    display: flex;
+    height: 42px;
+    padding: 5px 5px 5px 16px;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(247, 247, 247);
+}
+
+header .account img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 8px;
+} 
+
+.search-bar a
+{
+    text-decoration: none;
+    color: rgb(113, 113, 113);
+}
+
+.search-bar
+{
+    
+    justify-content: space-between;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(247, 247, 247);
+}
+
+.search-bar-item
+{
+    padding: 15px;
+    color: rgb(113, 113, 113);
+    font-size: 14px;
+    border-right: 1px solid rgb(235, 235, 235);
+}
+
+.search-bar-item:last-child
+{
+    border-right: none;
+}
+
+svg
+{
+    color: #FF385C;
+}
