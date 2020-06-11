@@ -7,7 +7,9 @@ button
 {
     border: none;
     background-color: transparent;
+    outline: none;
 }
+
 body
 {
     margin: 0;
@@ -21,6 +23,7 @@ header
     align-items: center;
     height: 80px;
     box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 2px;
+    background: white;
 }
 
 header .sub-header
@@ -44,7 +47,6 @@ header .account
     padding: 5px 5px 5px 16px;
     align-items: center;
     justify-content: space-between;
-    outline: none;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(247, 247, 247);
@@ -92,4 +94,180 @@ header .account img
 svg
 {
     color: #FF385C;
+}
+
+section
+{
+    padding-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+article
+{
+    padding-top: 15px;
+    margin-bottom: 24px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1120px;
+    margin: auto;
+}
+
+h1
+{
+    margin-bottom: 4px;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.sub-title
+{
+    margin-top: 8px;
+    margin-bottom: 24px ;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.star
+{
+    margin-right: 4px;
+    width: 25px;
+}
+
+.number-of-comment
+{
+    color: rgb(113, 113, 113);
+}
+
+.dot
+{
+    margin: 0px 8px;
+    color: rgb(113, 113, 113);
+    font-weight: bold;
+}
+
+.town
+{
+    color: rgb(113, 113, 113);
+    text-decoration: underline
+}
+
+.sub-title-right
+{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.share, .save
+{
+    display: flex;
+    align-items: center;
+}
+
+.share-icon, .save-icon
+{
+    margin-right: 8px;
+}
+
+.link
+{
+    text-decoration: underline;
+}
+
+.pictures
+{
+    display: flex;
+    width: 100%;
+    height: 372px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.pictures img
+{
+    position: relative;
+}
+
+.pictures-container img
+{
+    width: 100%;
+    height: auto;
+}
+
+.column
+{
+    display: flex;
+    flex: 1;
+}
+
+.column-right
+{
+    flex-wrap: wrap;
+}
+
+.pictures-container-right
+{
+    width: 50%;
+    height: 186px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.pictures-container-right img
+{
+    width: 100%;
+    height:auto;
+}
+
+.pictures-container
+{
+    padding-right: 3px;
+}
+
+.pictures-container-right:nth-child(1)
+{
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+
+.pictures-container-right:nth-child(3)
+{
+    padding-left: 3px;
+    margin-top: 3px;
+}
+
+.pictures-container-right:nth-child(2)
+{
+    padding-left: 6px;
+    margin-bottom: 3px;
+}
+
+.pictures-container-right:nth-child(4)
+{
+    padding-left: 6px;
+    margin-top: 3px;
+}
+
+.top-description
+{
+    padding: 35px 0px 24px;
+}
+
+h2
+{
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.subdescription
+{
+    color: #484848;
 }
