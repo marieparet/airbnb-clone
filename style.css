@@ -135,7 +135,8 @@ h1
 .star
 {
     margin-right: 4px;
-    width: 25px;
+    display: flex;
+    align-items: center;
 }
 
 .number-of-comment
@@ -325,6 +326,12 @@ h2
     font-size: 14px;
 }
 
+.main-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
 aside
 {
     box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
@@ -335,41 +342,57 @@ aside
     height: 300px;
 }
 
-.add-dates
+aside .top-aside
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    margin-bottom: 24px;
+}
+
+aside .add-dates
 {
     box-sizing: border-box;
-    padding-top: 16px;
-    width: 314px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.phrase-add-dates
+aside .phrase-add-dates
 {
     display: flex;
     align-items: baseline;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 24px;
     font-size: 22px;
     font-weight: bold;
-    width: 247px;
 }
 
-.show-score
+aside .show-score 
 {
-    width: 48.55px;
-    height: 24px;
+    display: flex;
+    align-items: flex-start;
+}
+
+aside .show-score > div
+{
     display: flex;
 }
 
-.score
+aside .show-score svg
+{
+    padding-right: 4px;
+    width: 18px;
+    height: 18px;
+}
+
+aside .score
 {
     display: flex;
     align-items: center;
     font-size: 14px;
-    width: 24px;
-    height: 24px;
 }
+
+
+
 
