@@ -269,6 +269,14 @@ h2
     margin-bottom: 8px;
 }
 
+h3
+{
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+
+
 .subdescription
 {
     color: #484848;
@@ -369,6 +377,7 @@ h2
 .bed-boxes
 {
     display: flex;
+    margin-left: -8px;
 }
 
 .bed-box
@@ -400,6 +409,73 @@ h2
     font-weight: bold;
 }
 
+.equipment-list
+{
+    display: flex;
+    margin-left: -8px;
+}
+
+.equipment-column
+{
+    width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.equipment-detail
+{
+    padding-bottom: 16px;
+    max-width: 83.3%;
+}
+
+.each-equipment
+{
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.svg-equipment
+{
+    margin-right: 16px;
+    margin-left: 0px;
+    width: 24px;
+}
+
+.no-equipment
+{
+    text-decoration: line-through;
+}
+
+.see-more-equipment
+{
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+
+.click-to-see-more-equipment
+{
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    outline: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-color: #222222;
+    background: #FFFFFF;
+    color: #222222
+}
 
 aside
 {
